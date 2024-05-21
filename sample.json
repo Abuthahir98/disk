@@ -1,0 +1,28 @@
+{
+  "artwork": {
+    "title": "Paper Motion Art",
+    "author": "John Doe",
+    "frames": [
+      {
+        "image": "frame1.jpg",
+        "angle": 0
+      },
+      {
+        "image": "frame2.jpg",
+        "angle": 45
+      },
+      {
+        "image": "frame3.jpg",
+        "angle": 90
+      },
+      {
+        "image": "frame4.jpg",
+        "angle": 135
+      },
+      {
+        "image": "frame5.jpg",
+        "angle": 180
+      }
+    ]
+  }
+}

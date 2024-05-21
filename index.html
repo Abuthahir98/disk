@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paper Motion Art Designer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Paper Motion Art Designer</h1>
+  </header>
+  <main>
+    <section id="upload-section">
+      <h2>Upload Artwork</h2>
+      <input type="file" id="file-input" accept="image/*">
+      <button id="upload-btn">Upload</button>
+    </section>
+    <section id="motion-controls">
+      <h2>Motion Controls</h2>
+      <label for="speed">Speed:</label>
+      <input type="range" id="speed" min="1" max="10" value="5">
+      <label for="direction">Direction:</label>
+      <select id="direction">
+        <option value="clockwise">Clockwise</option>
+        <option value="counterclockwise">Counterclockwise</option>
+      </select>
+    </section>
+    <section id="artwork-preview">
+      <h2>Artwork Preview</h2>
+      <canvas id="artwork-canvas"></canvas>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 Paper Motion Art Designer</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
